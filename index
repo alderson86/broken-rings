@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>AGD</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f9; }
+    h1 { color: #222; }
+    h2 { margin-top: 30px; }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>📂 Índice do Projeto</h1>
+  <ul>
+    <li><a href="#prints">🖼 Prints</a></li>
+    <li><a href="#audios">🎵 Áudios</a></li>
+    <li><a href="#indice">📑 Índice (TXT)</a></li>
+    <li><a href="#whatsapp">💬 Conversas WhatsApp</a></li>
+  </ul>
+  <hr>
+
+  <section id="prints">
+    <h2>🖼 Dano ao Patrimonio Imagens</h2>
+    <a href="https://drive.google.com/file/d/1DDSUnp-Veg7eTEFaNyu5iy41LX0sMZvl/view?usp=drive_link" target="_blank">⬇️ Baixar Print Dano Guarda Roupas</a><br>
+    <a href="https://drive.google.com/file/d/1Es2Bq9dzsbTn_okU3XXuk02wdL5webmk/view?usp=drive_link" target="_blank">⬇️ Baixar Print Dano ao Suporte da cortina</a><br>
+    <a href="https://drive.google.com/file/d/1oq-a7_j7U9PeXktbIe_zmUSRut5YLkJr/view?usp=drive_link" target="_blank">⬇️ Baixar Print Complemento restrição alimentar print whats</a><br>
+    <a href="https://drive.google.com/file/d/1t3a5H9wqzeR5CKfMxeb-YYV0VXOBxxXx/view?usp=drive_link" target="_blank">⬇️ Baixar Print Fogão sem as bocas, ficou assim por dois dias, 29 e 30 de setembro de 2025</a><br>
+  </section>
+
+  <section id="audios">
+    <h2>🎵 Áudios</h2>
+    <a href="https://drive.google.com/file/d/1M9UPxURR1JUMbPtiMajGFdHwaS8S-F4c/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Ameaças, alienação apróx. 1h:27m</a><br>
+    
+    <a href="https://drive.google.com/file/d/1nJYcT2rvOW5ZNIgZg6zxdSZajnKHn519/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Questinamento sobre restrição a alimentação</a><br>
+
+    <a href="https://drive.google.com/file/d/1Mfrb2USrevm3z7SrwUuOXDN35HRvkDWN/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Resposta dela sobre restrição a alimentação</a>
+  </section>
+
+  <section id="indice">
+    <h2>📑 Índice</h2>
+    <a href="https://drive.google.com/file/d/1a71-5zRzaXIzypnrTk-Hd5iMRbf4zVjh/view?usp=drive_link" target="_blank">⬇️ Baixar Índice Ameaças, alienação apróx. 1h:27m</a>
+  </section>
+
+  <section id="whatsapp">
+    <h2>💬 Reservado para Conversas do WhatsApp</h2>
+    <a href="https://drive.google.com/uc?export=download&id=ID_ZIP" target="_blank">⬇️ Sem arquivo para baixar Conversas (ZIP)</a>
+  </section>
+</body>
+</html>
