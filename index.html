@@ -2,56 +2,116 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>AGD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>heartbeat</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f4f4f9; }
-    h1 { color: #222; }
-    h2 { margin-top: 30px; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f6fa;
+      color: #222;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a {
+      background: #007bff;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    nav a:hover {
+      background: #0056b3;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+    }
+
+    a.link {
+      display: block;
+      margin: 8px 0;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a.link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <h1>📂 Índice do Projeto</h1>
-  <ul>
-    <li><a href="#prints">🖼 Prints</a></li>
-    <li><a href="#audios">🎵 Áudios</a></li>
-    <li><a href="#indice">📑 Índice (TXT)</a></li>
-    <li><a href="#whatsapp">💬 Conversas WhatsApp</a></li>
-  </ul>
-  <hr>
+  <header>
+    <h1>📂 HEARTBEAT</h1>
+    <nav>
+      <ul>
+        <li><a href="#prints">🖼 Prints</a></li>
+        <li><a href="#audios">🎵 Áudios</a></li>
+        <li><a href="#indice">📑 Índice (TXT)</a></li>
+        <li><a href="#whatsapp">💬 WhatsApp</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <section id="prints">
-    <h2>🖼 Dano ao Patrimonio Imagens</h2>
-    <a href="https://drive.google.com/file/d/1DDSUnp-Veg7eTEFaNyu5iy41LX0sMZvl/view?usp=drive_link" target="_blank">⬇️ Baixar Print Dano Guarda Roupas</a><br>
-    <a href="https://drive.google.com/file/d/1Es2Bq9dzsbTn_okU3XXuk02wdL5webmk/view?usp=drive_link" target="_blank">⬇️ Baixar Print Dano ao Suporte da cortina</a><br>
-    <a href="https://drive.google.com/file/d/1oq-a7_j7U9PeXktbIe_zmUSRut5YLkJr/view?usp=drive_link" target="_blank">⬇️ Baixar Print Complemento restrição alimentar print whats</a><br>
-    <a href="https://drive.google.com/file/d/1t3a5H9wqzeR5CKfMxeb-YYV0VXOBxxXx/view?usp=drive_link" target="_blank">⬇️ Baixar Print Fogão sem as bocas, ficou assim por dois dias, 29 e 30 de setembro de 2025</a><br>
-  </section>
+  <main>
+    <section id="prints">
+      <h2>🖼 Dano ao Patrimônio - Imagens</h2>
+      <a class="link" href="https://drive.google.com/file/d/1DDSUnp-Veg7eTEFaNyu5iy41LX0sMZvl/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Guarda-roupas danificado</a>
+      <a class="link" href="https://drive.google.com/file/d/1Es2Bq9dzsbTn_okU3XXuk02wdL5webmk/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Suporte da cortina quebrado</a>
+      <a class="link" href="https://drive.google.com/file/d/1oq-a7_j7U9PeXktbIe_zmUSRut5YLkJr/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Complemento: restrição alimentar</a>
+      <a class="link" href="https://drive.google.com/file/d/1t3a5H9wqzeR5CKfMxeb-YYV0VXOBxxXx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Fogão sem bocas (29 e 30 de setembro/2025)</a>
+    </section>
 
-  <section id="audios">
-    <h2>🎵 Áudios</h2>
-    <a href="https://drive.google.com/file/d/1M9UPxURR1JUMbPtiMajGFdHwaS8S-F4c/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Ameaças, alienação apróx. 1h:27m</a><br>
-    
-    <a href="https://drive.google.com/file/d/1nJYcT2rvOW5ZNIgZg6zxdSZajnKHn519/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Questinamento sobre restrição a alimentação</a><br>
+    <section id="audios">
+      <h2>🎵 Áudios e B.O PMMG</h2>
+      <a class="link" href="https://drive.google.com/file/d/1M9UPxURR1JUMbPtiMajGFdHwaS8S-F4c/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Ameaças e alienação (1h27m)</a>
+      <a class="link" href="https://drive.google.com/file/d/1nJYcT2rvOW5ZNIgZg6zxdSZajnKHn519/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Questionamento sobre restrição alimentar</a>
+      <a class="link" href="https://drive.google.com/file/d/1Mfrb2USrevm3z7SrwUuOXDN35HRvkDWN/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Resposta dela sobre restrição alimentar</a>
+      <a class="link" href="https://drive.google.com/file/d/1b1Kn-5yTNW9aNAUrt52wsB89VecQGvnc/view?usp=sharing" target="_blank" rel="noopener noreferrer">⬇️ Boletim de Ocorrência (B.O.)</a>
+      <a class="link" href="https://drive.google.com/file/d/1kdY5elq9wbIEOxJ81GxaSZHGz_CQYL4z/view?usp=sharing" target="_blank" rel="noopener noreferrer">⬇️ Áudio confirmando deixar criança sozinha</a>
+      <a class="link" href="https://drive.google.com/file/d/1FYLXmaf-unZQ3AnCQyxbbmV4otVrATqq/view?usp=sharing" target="_blank" rel="noopener noreferrer">⬇️ Print: conversa Benjamin sozinho em casa</a>
+      <a class="link" href="https://drive.google.com/file/d/1vuEW6RvE7zJKGqTTkjgmTzX9MYQFV-Y8/view?usp=sharing" target="_blank" rel="noopener noreferrer">⬇️ Integra da conversa - Benjamin sozinho em casa ( Suposto abandono de incapaz)</a>
+    </section>
 
-    <a href="https://drive.google.com/file/d/1Mfrb2USrevm3z7SrwUuOXDN35HRvkDWN/view?usp=drive_link" target="_blank">⬇️ Baixar Áudio Resposta dela sobre restrição a alimentação</a>
-<a href="https://drive.google.com/file/d/1b1Kn-5yTNW9aNAUrt52wsB89VecQGvnc/view?usp=sharing">⬇️ Baixar B.O </a>
-     <a href="https://drive.google.com/file/d/1kdY5elq9wbIEOxJ81GxaSZHGz_CQYL4z/view?usp=sharing">⬇️ Baixar Audio onde ela confirma o suposto ato de deixar a criança sozinha  </a>
- <a href="https://drive.google.com/file/d/1FYLXmaf-unZQ3AnCQyxbbmV4otVrATqq/view?usp=sharing">⬇️ Baixar Print conversa Benjamin sozinho em casa </a>
-   <a href="https://drive.google.com/file/d/1vuEW6RvE7zJKGqTTkjgmTzX9MYQFV-Y8/view?usp=sharing">⬇️ Baixar Integra file conversa Benjamin sozinho em casa </a> 
-    
-  </section>
+    <section id="indice">
+      <h2>📑 Índice (TXT)</h2>
+      <a class="link" href="https://drive.google.com/file/d/1a71-5zRzaXIzypnrTk-Hd5iMRbf4zVjh/view?usp=drive_link" target="_blank" rel="noopener noreferrer">⬇️ Índice Ameaças e Alienação (1h27m)</a>
+    </section>
 
-  <section id="indice">
-    <h2>📑 Índice</h2>
-    <a href="https://drive.google.com/file/d/1a71-5zRzaXIzypnrTk-Hd5iMRbf4zVjh/view?usp=drive_link" target="_blank">⬇️ Baixar Índice Ameaças, alienação apróx. 1h:27m</a>
-    
-  </section>
-
-  <section id="whatsapp">
-    <h2>💬 Reservado para Conversas do WhatsApp</h2>
-    <a href="https://drive.google.com/uc?export=download&id=ID_ZIP" target="_blank">⬇️ Sem arquivo para baixar Conversas (ZIP)</a>
-  </section>
+    <section id="whatsapp">
+      <h2>💬 Conversas WhatsApp</h2>
+      <a class="link" href="https://drive.google.com/uc?export=download&id=ID_ZIP" target="_blank" rel="noopener noreferrer">⬇️ Arquivo ZIP - Conversas (Salvos no icloud mail)</a>
+    </section>
+  </main>
 </body>
 </html>
